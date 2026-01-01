@@ -64,14 +64,14 @@
     ```bash
     pip install pygame pyserial
     ```
-3.  Open the Python script (`main.py`).
+3.  Open the Python script (`color_game.py`).
 4.  **Edit the COM Port:** Find this line and change it to your Arduino's port (e.g., `COM3`, `/dev/ttyUSB0`):
     ```python
     SERIAL_PORT = 'COM6' 
     ```
 5.  Run the game:
     ```bash
-    python main.py
+    python color_game.py
     ```
 
 ---
